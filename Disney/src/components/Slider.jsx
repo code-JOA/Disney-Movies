@@ -4,7 +4,7 @@ function Slider() {
 
     useEffect(()=>(
 
-    ),())
+    ),(test))
   return (
     <div>Slider</div>
   )
