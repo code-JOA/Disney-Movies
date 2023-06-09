@@ -10,6 +10,17 @@ import { HiHome,
     HiDotsVertical } from 'react-icons/hi';
 
 function Header() {
+
+    const menu={
+        {
+            name: 'HOME',
+            icon: HiHome
+        },
+        {
+            name: 'SEARCH',
+            icon
+        }
+    }
   return (
     <div>
         <img src={logo} className='w-[80px] 
