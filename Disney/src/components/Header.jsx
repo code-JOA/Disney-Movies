@@ -36,14 +36,17 @@ function Header() {
         }
     ]
     return (
-    <div>
-        <img src={logo} className='w-[80px] 
-        md:w-[115px] object-cover' />
+      <div>
+        <img
+          src={logo}
+          className="w-[80px] 
+        md:w-[115px] object-cover"
+        />
         {menu.map((item) => (
-            <HeaderItem />
+          <HeaderItem name={item.name} Icon={item.icon} />
         ))}
-    </div>
-    )
+      </div>
+    );
 }
 
 export default Header
