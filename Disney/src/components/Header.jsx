@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './..assets/images/disney.png';
+import logo from './../assets/images/disney.png';
 
 function Header() {
   return (
