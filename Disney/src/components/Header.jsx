@@ -37,6 +37,7 @@ function Header() {
     ]
     return (
         <div className='flex items-center gap-8'>
+            <div>
         <img
             src={logo}
             className="w-[80px] 
