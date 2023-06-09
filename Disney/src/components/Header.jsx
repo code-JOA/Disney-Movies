@@ -4,8 +4,8 @@ import { HiHome,
         HiMagnifyingGlass,
         HiStar,
         HiPlayCircle,
-    HiTv } from 'react-icons/hi2';
- import { HiPlus, HiDotsVertical } from 'react-icons/hi';
+        HiTv } from 'react-icons/hi2';
+import { HiPlus, HiDotsVertical } from 'react-icons/hi';
 
 function Header() {
 
