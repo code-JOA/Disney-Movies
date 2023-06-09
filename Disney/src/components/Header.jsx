@@ -54,6 +54,7 @@ function Header() {
             ))}
             <div className='md:hidden'>
                 <HeaderItem name={''} Icon={HiDotsVertical} />
+                <div></div>
             </div>
           </div>
         </div>
