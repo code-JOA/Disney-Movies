@@ -52,9 +52,9 @@ function Header() {
             {menu.map((item,index)=> index<3&&(
               <HeaderItem name={''} Icon={item.icon} />
             ))}
-            <div >
-                {menu.map((item,index)=> index<3&&(
-                <HeaderItem name={''} Icon={HiDotsVertical} />
+            <div>
+                {menu.map((item,index)=>index<2&&(
+                <HeaderItem name={''} Icon={item.icon} />
                 <div></div>
             </div>
           </div>
