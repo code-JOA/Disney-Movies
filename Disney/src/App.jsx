@@ -3,7 +3,7 @@ import { useState } from "react";
 // import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./components/Header";
-// import Slider from "./Componets/Slider";
+import Slider from "./components/Slider";
 // import ProductionHouse from "./Componets/ProductionHouse";
 // import GenreMovieList from "./Componets/GenreMovieList";
 
