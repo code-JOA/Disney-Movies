@@ -36,7 +36,7 @@ function Header() {
         }
     ]
     return (
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between py-5">
         <div className='flex gap-8 items-center'>
           <img
             src={logo}
