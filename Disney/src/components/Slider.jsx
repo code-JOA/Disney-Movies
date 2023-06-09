@@ -1,5 +1,5 @@
 import React from 'react'
-import { useEffect } from ''
+import { useEffect } from 'react'
 
 function Slider() {
   return (
