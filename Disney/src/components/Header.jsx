@@ -37,7 +37,9 @@ function Header() {
     <div>
         <img src={logo} className='w-[80px] 
         md:w-[115px] object-cover' />
-        {menu.map((list)}
+        {menu.map((item) => (
+            <HeaderItem />
+        ))}
     </div>
   )
 }
