@@ -39,7 +39,7 @@ function Header() {
       <div>
         <img
           src={logo}
-          className="w-[80px] 
+          className="w-[8px] 
         md:w-[115px] object-cover"
         />
         {menu.map((item) => (
