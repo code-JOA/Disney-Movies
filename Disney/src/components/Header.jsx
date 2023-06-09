@@ -28,7 +28,7 @@ function Header() {
         },
         {   name: 'MOVIES',
             icon: HiPlayCircle
-        }
+        },
         {
             name: 'SERIES',
             icon: HiTv
@@ -39,7 +39,7 @@ function Header() {
         <img src={logo} className='w-[80px] 
         md:w-[115px] object-cover' />
         {menu.map((item) => (
-            <HeaderItem name{item.name} Icon{item.icon}/>
+            <HeaderItem name={item.name} Icon={item.icon}/>
         ))}
     </div>
   )
