@@ -36,17 +36,20 @@ function Header() {
         }
     ]
     return (
-        <div className='flex items-center gap-8'>
-            <div>
-        <img
+      <div className="flex items-center gap-8">
+        <div>
+          <img
             src={logo}
             className="w-[80px] 
         md:w-[115px] object-cover"
-        />
-        {menu.map((item) => (
+          />
+          {menu.map((item) => (
             <HeaderItem name={item.name} Icon={item.icon} />
-        ))}
+          ))}
         </div>
+        <img src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745"
+        <img src='' />
+      </div>
     );
 }
 
