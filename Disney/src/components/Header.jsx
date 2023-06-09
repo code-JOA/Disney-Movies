@@ -1,6 +1,11 @@
 import React from 'react'
 import logo from './../assets/images/logo.png'
-import { HiHome, HiMagnifyingGlass } from 'react-icons'
+import { HiHome, 
+    HiMagnifyingGlass,
+    HiStar,
+    HiPlayCircle,
+    HiTv
+ } from 'react-icons/hi2'
 
 function Header() {
   return (
