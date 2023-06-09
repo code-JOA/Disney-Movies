@@ -1,7 +1,8 @@
-import ReactuseEffect, {  } from 'react'
-import { useEffect } from 'react'
+import React, { useEffect } from "react"
 
 function Slider() {
+
+    useEffect(())
   return (
     <div>Slider</div>
   )
