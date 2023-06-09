@@ -3,7 +3,9 @@ import logo from './../assets/images/disney.png';
 
 function Header() {
   return (
-    <div>Hello</div>
+    <div>
+        <img src={logo}
+    </div>
   )
 }
 
