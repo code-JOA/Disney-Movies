@@ -11,7 +11,7 @@ import { HiHome,
 
 function Header() {
 
-    const menu={
+    const menu=[
         {
             name: 'HOME',
             icon: HiHome
@@ -27,8 +27,12 @@ function Header() {
         {
             name: 'ORIGINALS',
             icon: HiPlayCircle
+        },
+        {
+            name: 'SERIES',
+            icon: HiTv
         }
-    }
+    ]
   return (
     <div>
         <img src={logo} className='w-[80px] 
