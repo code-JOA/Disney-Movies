@@ -6,7 +6,7 @@ function HeaderItem({name, Icon}) {
     text-[15px] font-semibold cursor-pointer hover:underline
     underline-offset-8'>
         <Icon/>
-        <h2 className=>{name}</h2>    
+        <h2 className='hidden md:blo'>{name}</h2>    
     </div>
 )
 }
