@@ -18,7 +18,11 @@ function Header() {
         },
         {
             name: 'SEARCH',
-            icon
+            icon: HiMagnifyingGlass
+        },
+        {
+            name: 'ADD',
+            icon: HiPlus
         }
     }
   return (
