@@ -53,8 +53,7 @@ function Header() {
               <HeaderItem name={item.name} Icon={item.icon} />
             ))}
             <div className=''>
-                <HeaderItem name=("") Icon=
-
+                <HeaderItem name={""} Icon={HiDotsVertical} />
             </div>
           </div>
         </div>
