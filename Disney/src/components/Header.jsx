@@ -5,7 +5,8 @@ import { HiHome,
     HiStar,
     HiPlayCircle,
     HiTv
- } from 'react-icons/hi2'
+ } from 'react-icons/hi2';
+ import { HiPlus, HiDotsVertical }
 
 function Header() {
   return (
