@@ -56,7 +56,6 @@ function Header() {
                 <HeaderItem name={''} Icon={HiDotsVertical} />
                     <div>
                         {menu.map((item,index)=>index>2&&(
-                            }
                 </HeaderItem name={''} Icon={item.icon}/>
                 ))}
                 </div>
