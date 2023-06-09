@@ -37,18 +37,22 @@ function Header() {
     ]
     return (
       <div className="flex items-center justify-between py-5">
-        <div className='flex gap-8 items-center'>
+        <div className="flex gap-8 items-center">
           <img
             src={logo}
             className="w-[80px] 
         md:w-[115px] object-cover"
           />
-          {menu.map((item) => (
-            <HeaderItem name={item.name} Icon={item.icon} />
-          ))}
+          <div>
+            {menu.map((item) => (
+              <HeaderItem name={item.name} Icon={item.icon} />
+            ))}
+          </div>
         </div>
-        <img src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745"
-        className='w-[30px] founded-full'/>
+        <img
+          src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745"
+          className="w-[30px] founded-full"
+        />
       </div>
     );
 }
