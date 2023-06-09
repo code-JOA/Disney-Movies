@@ -48,7 +48,7 @@ function Header() {
               <HeaderItem name={item.name} Icon={item.icon} />
             ))}
           </div>
-          <div className="flex gap-8">
+          <div className="hidden flex gap-8">
             {menu.map((item)=>(
               <HeaderItem name={item.name} Icon={item.icon} />
             ))}
