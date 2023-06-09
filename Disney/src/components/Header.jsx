@@ -43,7 +43,7 @@ function Header() {
             className="w-[80px] 
         md:w-[115px] object-cover"
           />
-          <div>
+          <div className='flex gap-8'>
             {menu.map((item) => (
               <HeaderItem name={item.name} Icon={item.icon} />
             ))}
