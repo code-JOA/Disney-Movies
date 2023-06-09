@@ -1,32 +1,26 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-
-// function App() {
-//   const [count, useCount] = useState();
-
-//   return  (
-//     <div className="">
-//       <Header />
-//     </div>
-//   );
-// }
-
-// export default App
-
-import React from 'react';
-import './App.css';
-import Header from './components/Header';
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import Header from "./Componets/Header";
+import Slider from "./Componets/Slider";
+import ProductionHouse from "./Componets/ProductionHouse";
+import GenreMovieList from "./Componets/GenreMovieList";
 
 function App() {
+  const [count, setCount] = useState(0);
+
   return (
-    <div className=''>
-      {/* <h1 className="text-3xl font-bold underline">
-        Hello world
-      </h1> */}
+    <div className="">
       <Header />
+
+      <Slider />
+
+      <ProductionHouse />
+
+      <GenreMovieList />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
