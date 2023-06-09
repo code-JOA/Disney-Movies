@@ -21,8 +21,12 @@ function Header() {
             icon: HiMagnifyingGlass
         },
         {
-            name: 'ADD',
+            name: 'WATCH LIST',
             icon: HiPlus
+        },
+        {
+            name: 'ORIGINALS',
+            icon: HiPlayCircle
         }
     }
   return (
