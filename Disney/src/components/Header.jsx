@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './../assets/images/logo.png';
 import { HiHome, 
-    HiMagnifyingGlass,
-    HiStar,
-    HiPlayCircle,
+        HiMagnifyingGlass,
+        HiStar,
+        HiPlayCircle,
     HiTv } from 'react-icons/hi2';
  import { HiPlus, HiDotsVertical } from 'react-icons/hi';
 
