@@ -2,7 +2,9 @@ import React, { useEffect } from "react"
 
 function Slider() {
 
-    useEffect(()=>)
+    useEffect(()=>(
+        
+    ))
   return (
     <div>Slider</div>
   )
