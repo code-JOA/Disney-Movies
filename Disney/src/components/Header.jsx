@@ -34,7 +34,7 @@ function Header() {
             icon: HiTv
         }
     ]
-  return (
+    return (
     <div>
         <img src={logo} className='w-[80px] 
         md:w-[115px] object-cover' />
@@ -42,7 +42,7 @@ function Header() {
             <HeaderItem name={item.name} Icon={item.icon}/>
         ))}
     </div>
-  )
+    )
 }
 
 export default Header
