@@ -6,4 +6,8 @@ const api_key = "de0b39d4bd85599f2e0dbce743bb0857"
 // https://api.themoviedb.org/3/trending/all/day?api_key=de0b39d4bd85599f2e0dbce743bb0857
 
 
-const getTrendingVideos=axios.get(this.movieBaseUrl+'/trending')
+const getTrendingVideos=axios.get(this.movieBaseUrl+'/trending/all/day?+api_key')
+
+export default{
+    getTrendingVideos
+}
