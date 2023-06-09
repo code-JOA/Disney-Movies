@@ -1,6 +1,6 @@
 import React from 'react'
 
-function HeaderItem({name, icons}) {
+function HeaderItem({name, Icon}) {
   return (
     <div>HeaderItem</div>
   )
