@@ -1,9 +1,9 @@
 import React from 'react'
 
-functio() {
+function Header() {
   return (
-    <di</div>
+    <div>Hello</div>
   )
 }
 
-export defaul
+export default Header
