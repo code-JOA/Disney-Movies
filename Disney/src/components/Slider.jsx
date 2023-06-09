@@ -1,4 +1,4 @@
-import React from 'react'
+import ReactuseEffect, {  } from 'react'
 import { useEffect } from 'react'
 
 function Slider() {
