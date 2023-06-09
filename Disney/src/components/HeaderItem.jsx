@@ -2,7 +2,11 @@ import React from 'react'
 
 function HeaderItem({name, Icon}) {
   return (
-    <div>HeaderItem</div>
+    <div>
+        <Icon>
+            <h2>{name}</h2>
+        </Icon>
+    </div>
   )
 }
 
