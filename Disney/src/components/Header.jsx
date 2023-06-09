@@ -26,7 +26,8 @@ function Header() {
             name: 'ORIGINALS',
             icon: HiStar
         },
-        {name: 'MOVIES',
+        {   name: 'MOVIES',
+            icon: HiPlayCircle
         }
         {
             name: 'SERIES',
