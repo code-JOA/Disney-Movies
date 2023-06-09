@@ -55,7 +55,7 @@ function Header() {
             <div>
                 {menu.map((item,index)=>index<2&&(
                 <HeaderItem name={''} Icon={item.icon} />
-                <div></div>
+                </div>
             </div>
           </div>
         </div>
