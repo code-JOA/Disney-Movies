@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import GlobalApi
+import GlobalApi from '../Services/Global'
 
 function Slider() {
     useEffect(()=>{
