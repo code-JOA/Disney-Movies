@@ -8,6 +8,8 @@
 
 // const getTrendingVideos=axios.get(movieBaseUrl +
 //     "/trending/all/day?"+api_key);
+    const getMovieByGenreId=(id)=>
+    axios
 
 
 // export default{
