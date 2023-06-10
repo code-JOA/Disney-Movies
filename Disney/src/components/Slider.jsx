@@ -11,7 +11,7 @@ function Slider() {
             console.log(rep);
         })
     }
-  return 
+  return (
     <div>Slider</div>
   )
 }
