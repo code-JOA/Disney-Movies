@@ -6,7 +6,11 @@ function Slider() {
 
 },[])
 
-const getTrendingMovies
+const getTrendingMovies=()=>{
+    GlobalApi.getTrendingMovies.then(resp=>{
+        
+    })
+}
   return (
     <div>Slider</div>
   )
