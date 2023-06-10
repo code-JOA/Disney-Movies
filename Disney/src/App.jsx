@@ -16,9 +16,9 @@ function App() {
 
       <Slider />
 
-      {/* <ProductionHouse />
+      <ProductionHouse />
 
-      <GenreMovieList />  */}
+      {/* <GenreMovieList />   */}
     </div>
   );
 }
