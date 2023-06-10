@@ -19,7 +19,7 @@ function Slider() {
     <div>
         {movieList.map((item,index)=>{
             <img src={IMAGE_BASE_URL+item.backdrop_path} 
-            className='min-w-full h-9310px/>
+            className='min-w-full h-[310px]' />
         })}
     </div>
   )
