@@ -4,8 +4,8 @@ import { useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import Slider from "./components/Slider";
-// import ProductionHouse from "./Componets/ProductionHouse";
-// import GenreMovieList from "./Componets/GenreMovieList";
+// import ProductionHouse from "./Components/ProductionHouse";
+// import GenreMovieList from "./Components/GenreMovieList";
 
 function App() {
   const [count, setCount] = useState(0);
