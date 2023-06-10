@@ -7,9 +7,8 @@ function Slider() {
 },[])
 
 const getTrendingMovies=()=>{
-    GlobalApi.getTrending.then(resp=>{
+    GlobalApi.getTrendingVideos.then(resp=>{
         console.log(rep);
-
     })
 }
   return (
