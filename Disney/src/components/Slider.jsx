@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import GlobalApi from '../Services/GlobalApi';
 
-const IMAGE_BASE_URL='https://image.tmdb.org/t/p/orignal'
+const IMAGE_BASE_URL='https://image.tmdb.org/t/p/orignal';
 
 function Slider() {
-    const [movieList, setMovieList]=useState([]);
+    const [movieList,setMovieList]=useState([]);
     useEffect(()=>{
         getTrendingMovies();
     },[])
