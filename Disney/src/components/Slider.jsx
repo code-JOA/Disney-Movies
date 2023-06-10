@@ -66,7 +66,8 @@ function Slider() {
       />
 
       <div
-        className="flex overflow-x-auto w-full px-16 py-4"
+        className="flex overflow-x-auto w-full px-16 py-4
+    scrollbar-none scroll-smooth"
         ref={elementRef}
       >
         {movieList.map((item) => (
