@@ -3,7 +3,7 @@ import GlobalApi from '../Services/GlobalApi'
 
 function Slider() {
     useEffect(()=>{
-
+        getTrendingMovies();
 },[])
 
 const getTrendingMovies=()=>{
