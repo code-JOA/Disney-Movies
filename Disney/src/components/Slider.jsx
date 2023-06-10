@@ -2,9 +2,11 @@ import React, { useEffect } from "react"
 
 function Slider() {
 
-    useEffect(()=>(
+    useEffect(()=>{
 
-    ),(test))
+},[])
+
+const getTrendingMovies
   return (
     <div>Slider</div>
   )
