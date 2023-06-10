@@ -17,11 +17,11 @@ function Slider() {
     });
   };
 
-  const sliderRight = (element) => {
-    element.scrollLeft += screenWidth - 110;
+  const sliderRight=(element)=>{
+    element.scrollLeft+=screenWidth-110
   };
-  const sliderLeft = (element) => {
-    element.scrollLeft -= screenWidth - 110;
+  const sliderLeft=(element) =>{
+    element.scrollLeft-=screenWidth-110
   };
   return (
     <div>
