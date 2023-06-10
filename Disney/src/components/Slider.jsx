@@ -14,7 +14,9 @@ function Slider() {
         })
     }
   return (
-    <div>Slider</div>
+    <div>
+        {movieList.map((item,index))}
+    </div>
   )
 }
 
