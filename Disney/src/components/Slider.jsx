@@ -1,4 +1,5 @@
 import React, { useEffect } from "react"
+import GlobalApi
 
 function Slider() {
     useEffect(()=>{
@@ -7,6 +8,7 @@ function Slider() {
 
 const getTrendingMovies=()=>{
     GlobalApi.getTrendingMovies.then(resp=>{
+        console.log(rep);
 
     })
 }
