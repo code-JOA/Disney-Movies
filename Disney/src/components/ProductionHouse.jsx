@@ -30,11 +30,14 @@ function ProductionHouse() {
         },
         {
             id:5,
-            image:
+            image: nationalG,
+            video: nationalGeographicV
         }
     ]
   return (
-    <div>ProductionHouse</div>
+    <div>
+        {productionHouseList}
+    </div>
   )
 }
 
