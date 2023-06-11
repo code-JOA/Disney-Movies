@@ -32,8 +32,8 @@ function ProductionHouse() {
             id:5,
             image: nationalG,
             video: nationalGeographicV
-        }
-        
+        },
+
     ]
   return (
     <div>
