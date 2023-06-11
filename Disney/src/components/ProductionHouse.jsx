@@ -36,7 +36,9 @@ function ProductionHouse() {
     ]
   return (
     <div>
-        {productionHouseList}
+        {productionHouseList.map((item)=>(
+            
+        ))}
     </div>
   )
 }
