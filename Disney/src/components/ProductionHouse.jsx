@@ -50,13 +50,12 @@ function ProductionHouse() {
         >
           <img src={item.image} className="w-full" />
           <video
-            src={item.vide}
+            src={item.video}
             autoPlay
             loop
             playsInline
-            className="absolute top-0 round-md"
+            className="absolute top-0 round-md z-0"
           >
-            
           </video>
         </div>
       ))}
