@@ -1,16 +1,17 @@
-import React from 'react'
-import GenreList from './Constant/GenresList'
+// import React from 'react'
+// import GenresList from './Constant/GenresList'
 
-function GenreMovieList() {
-    return (
-    <div>
-        {GenresList.genere.map((item,index)=>index<=4&&(
-        <div>
-            <h2 className='text-[20px] text-white'>{item.name}</h2>
-        </div>
-        ))}
-        </div>
-    )
-}
+// function GenreMovieList() {
+//     return (
+//     <div>
+//         {GenresList.genere.map((item,index)=>index<=4&&(
+//         <div>
+//             <h2 className='text-[20px] text-white'>{item.name}</h2>
+//         </div>
+//         ))}
+//         </div>
+//     )
+// }
 
-export default GenreMovieList
+// export default GenreMovieList
+
