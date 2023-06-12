@@ -1,11 +1,11 @@
 const genere = [
   {
-    id: 28,
-    name: "Action"
+    ""id": 28,
+    "name": "Action"
   },
   {
-    id: 12,
-    name: "Adventure"
+    "id": 12,
+    "name": "Adventure"
   },
   {
     id: 16,
@@ -25,11 +25,11 @@ const genere = [
   },
   {
     id: 18,
-    name: "Drama",
+    name: "Drama"
   },
   {
     id: 10751,
-    name: "Family",
+    name: "Family"
   },
   {
     id: 14,
@@ -37,23 +37,23 @@ const genere = [
   },
   {
     id: 36,
-    name: "History",
+    name: "History"
   },
   {
     id: 27,
-    name: "Horror",
+    name: "Horror"
   },
   {
     id: 10402,
-    name: "Music",
+    name: "Music"
   },
   {
     id: 9648,
-    name: "Mystery",
+    name: "Mystery"
   },
   {
     id: 10749,
-    name: "Romance",
+    name: "Romance"
   },
   {
     id: 878,
