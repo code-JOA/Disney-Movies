@@ -1,9 +1,7 @@
-import React, { useEffect, useState }  from 'react'
-import GlobalApi from '../Services/GlobalApi'
-import MovieCard from './MovieCard'
+import React, { useEffect, useState }  from 'react';
+import GlobalApi from '../Services/GlobalApi';
+import MovieCard from './MovieCard';
 import { IoChevronBackOutline, IoChevronForwardOutline } from "react-icons/io5";
-
-
 
 function MovieList({genreId}) {
     const [movieList, setMovieList]=useState([])
