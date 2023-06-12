@@ -16,10 +16,9 @@ function MovieList({genreId}) {
     }
 
     return (
-        <div>
+        <div className='flex'>
             {movieList.map((item,index)=>(
                 <MovieCard movie={item}/>
-
             ))}
         </div>
     )
