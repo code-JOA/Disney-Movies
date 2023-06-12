@@ -29,11 +29,11 @@ function MovieList({ genreId, index_ }) {
   return (
     <div className="relative">
       <IoChevronBackOutline
-        onClick={() => slideLeft(elementRef.current)}
-        className={`text-[50px] text-white
+        onClick={()=>slideLeft(elementRef.current)}
+        className='text-[50px] text-white
            p-2 z-10 cursor-pointer 
             hidden md:block absolute
-            ${index_ % 3 == 0 ? "mt-[80px]" : "mt-[150px]"} `}
+            ${index_ % 3 == 0 ? "mt-[80px]" : "mt-[150px]"}'}
       />
 
       <div
