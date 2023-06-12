@@ -6,7 +6,7 @@ const IMAGE_BASE_URL='https://image.tmdb.org/t/p/original';
 function MovieCard({movie}) {
   return (
     <div>
-        <img src={movie.poster_path} className=''></img>
+        <img src={IMAGE_BASE_URL+movie.poster_path} ></img>
     </div>
   )
 }
