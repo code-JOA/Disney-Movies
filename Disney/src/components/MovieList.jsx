@@ -9,15 +9,14 @@ function MovieList({genreId}) {
 
     const getMovieByGenreId=()=>{
         GlobalApi.getMovieByGenreId(genreId).then((resp) => {
-            console.log(resp.data.results)
+            // console.log(resp.data.results)
             setMovieList(resp.data.results);
         });
     };
 
     return (
-
-    <div>
-        {MovieList.map((item,index)=>(
+        <div>
+            {MovieList.map((item,index)=>(
 
         ))}
         </div>
