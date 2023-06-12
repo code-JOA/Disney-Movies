@@ -11,7 +11,7 @@ import nationalGeographicV from "./../assets/Videos/national-geographic.mp4";
 import pixarV from "./../assets/Videos/pixar.mp4";
 
 function ProductionHouse() {
-    const list=[
+    const productionHouseList=[
         {
             id:1,
             image:disney,
@@ -25,10 +25,12 @@ function ProductionHouse() {
         {
             id:3,
             image: marvel,
-            videos: p
+            video: marvelV
         },
         {
-
+            id:4,
+            image: starwar,
+            video: starwarV
         },
         {
             id:5,
