@@ -16,7 +16,9 @@ function MovieList({genreId}) {
 
     return (
         <div>
-            {movieList.map}
+            {movieList.map((item,index)=>(
+                
+            ))}
         </div>
     )
 }
