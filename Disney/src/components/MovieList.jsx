@@ -33,9 +33,9 @@ function MovieList({ genreId, index_ }) {
         onClick={() => slideLeft(elementRef.current)}
         className={`text-[50px] text-white p-2 z-10
         cursor-pointer hidden md:block absolute
-        ${index_%3==0?'mt-[100px]':'mt-[150px]'}`}
-      />
 
+      ${index_ % 3 == 0 ? "mt-[80px]" : "mt-[150px]"} `}/>
+      ${index_%3==0?"mt-[100px]" : "mt-[150px]"} `} />
       <div
         ref={elementRef}
         className="flex overflow-x-auto gap-8
@@ -53,7 +53,6 @@ function MovieList({ genreId, index_ }) {
           </>
         ))}
       </div>
-
       <IoChevronForwardOutline
         onClick={() => slideRight(elementRef.current)}
         className="text-[50px] text-white hidden md:block
