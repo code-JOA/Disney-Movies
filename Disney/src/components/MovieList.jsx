@@ -31,12 +31,9 @@ function MovieList({genreId}) {
         onClick={()=>slideLeft(elementRef.current)}
         className={`text-[50px] text-white p-2 z-10
         cursor-pointer hidden md:block absolute 
-        ${index_ % 3 == 0 ? "mt-[80px]" : "mt-[150px]"
-        } `}
-        />
+        ${index_%3==0?"mt-[80px]":"mt-[150px]"} `}/>
 
-        <div
-          className="flex overflow-x-auto gap-8
+        <div  className="flex overflow-x-auto gap-8
         scrollbar-none pt-5 px-3 pb-5"
         >
           {movieList.map((item, index) => (
