@@ -38,7 +38,7 @@ function MovieList({ genreId, index_ }) {
         className="flex overflow-x-auto gap-8
         scrollbar-none pt-5 px-3 pb-5">
             {movieList.map((item,index)=>(
-                <MovieCard
+                <MovieCard movie={item} />
         ))}
     </div>
 
@@ -46,10 +46,9 @@ function MovieList({ genreId, index_ }) {
         onClick={() => slideRight(elementRef.current)}
         className='text-[50px] text-white hidden md:block
         p-2 cursor-pointer z-10 top-0
-        absolute right-0 mt-[150px]'
-    />
+        absolute right-0 mt-[150px]'/>
     </div>
   )
 }
 
-export default MovieList;
+export default MovieList
