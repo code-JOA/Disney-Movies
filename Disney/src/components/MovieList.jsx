@@ -16,6 +16,15 @@ function MovieList({genreId}) {
     }
 
     return (
+        <div>
+        <HiChevronLeft className="hidden md:block text-white text-[30px] absolute
+        mx-8 mt-[150px] cursor-pointer " 
+        onClick={()=>sliderLeft(elementRef.current)}/>
+        <HiChevronRight className='hidden md:block text-white text-[30px] absolute
+        mx-8 mt-[150px] cursor-pointer right-0' 
+        onClick={()=>sliderRight(elementRef.current)}/>
+
+
         <div className='flex overflow-x-auto gap-8
         scrollbar-none pt-5 px-3 pb-5'>
             {movieList.map((item,index)=>(
