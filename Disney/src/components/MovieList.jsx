@@ -56,7 +56,9 @@ function MovieList({ genreId, index_ }) {
         onClick={() => slideRight(elementRef.current)}
         className="text-[50px] text-white hidden md:block
         p-2 cursor-pointer z-10 top-0
-        absolute right-0 mt-[150px]"
+        absolute right-0 
+        ${index_%3==0?"mt-[80px]":"mt-[150px]"} `}/>
+
       />
     </div>
   );
