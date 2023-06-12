@@ -16,7 +16,11 @@ function MovieList({genreId}) {
     }
 
     return (
-        
+        <div>
+            
+        />
+
+    
 
 
         <div className='flex overflow-x-auto gap-8
