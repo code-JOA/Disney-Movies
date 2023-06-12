@@ -42,7 +42,7 @@ function MovieList({ genreId, index_ }) {
       >
         {movieList.map((item, index) => (
           <>
-           {index_%3==0} <MovieCard movie={item} />
+           {index_%3==0?<HrMoviecard/>} : <MovieCard movie={item} />
           </>
         ))}
       </div>
