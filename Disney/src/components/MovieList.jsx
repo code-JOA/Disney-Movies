@@ -20,7 +20,7 @@ function MovieList({genreId}) {
             <IoChevronBackOutline onClick={()
             =>slideLeft(elementRef. className='text-[50px]
             text-white p-2 z-10 cursor-pointer hidden md:block
-            absolute mt')}
+            absolute mt-[150px]')}
         />
 
     
