@@ -41,9 +41,9 @@ function ProductionHouse() {
 
     ]
   return (
-    <div>
+    <div className='flex gap-5'>
         {productionHouseList.map((item)=>(
-            <div>
+            <div className='border-[2px] border-gray-600'>
                 <img src={item.image} className='w-full' />
             </div>
         ))}
