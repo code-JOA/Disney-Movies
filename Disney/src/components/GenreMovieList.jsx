@@ -1,6 +1,6 @@
 import React from "react";
 import GenresList from "../Constant/GenresList";
-// import MovieList from "./MovieList";
+import MovieList from "./MovieList";
 
 function GenreMovieList() {
   return (
@@ -15,7 +15,7 @@ function GenreMovieList() {
               >
                 {item.name}
               </h2>
-              {/* <MovieList genreId={item.id} index_={index} /> */}
+              <MovieList genreId={item.id} index_={index} />
             </div>
           )
       )}
