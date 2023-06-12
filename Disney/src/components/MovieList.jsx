@@ -10,16 +10,8 @@ function MovieList({genreId}) {
         GlobalApi.getMovieByGenreId(genreId).then((resp) => {
             console.log(resp.data.results)
             setMovieList(resp.data.results);
-        })
-    }
-
-    //   const getMovieByGenreId = () => {
-//     GlobalApi.getMovieByGenreId(genreId).then((resp) => {
-//       // console.log(resp.data.results)
-//       setMovieList(resp.data.results);
-//     });
-//   };
-
+        });
+    };
 
   return (
     <div>MovieList</div>
