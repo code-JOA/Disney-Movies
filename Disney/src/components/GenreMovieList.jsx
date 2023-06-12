@@ -2,7 +2,7 @@ import React from 'react'
 
 const GenreMovieList = () => {
   return (
-    <div>GenreMovieList</div>
+    <div>{GenreList.genere.map((item))}=></div>
   )
 }
 
