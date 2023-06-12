@@ -24,6 +24,8 @@ function ProductionHouse() {
         },
         {
             id:3,
+            image: marvel,
+            videos: p
         },
         {
 
