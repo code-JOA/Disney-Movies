@@ -33,7 +33,7 @@ function MovieList({ genreId, index_ }) {
         onClick={() => slideLeft(elementRef.current)}
         className={`text-[50px] text-white p-2 z-10
         cursor-pointer hidden md:block absolute
-        mt-[150px]`}
+        ${index_%3==0?} mt-[150px]`}
       />
 
       <div
