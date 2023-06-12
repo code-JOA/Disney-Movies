@@ -48,13 +48,13 @@ function ProductionHouse() {
             rounded-lg hover:scale-110 transition-all duration-300 
             erase-in-out cursor-pointer"
         >
-          <img src={item.image} className="w-full z-[1]" />
+          <img src={item.image} className="w-full z-[1] opacity-100" />
           <video
             src={item.video}
             autoPlay
             loop
             playsInline
-            className="absolute top-0 round-md z-0 opacity-0 
+            className="absolute z-0 top-0 round-md opacity-0 
             hover:opacity-50"
           >
           </video>
