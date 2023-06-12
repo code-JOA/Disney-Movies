@@ -11,7 +11,7 @@ function MovieList({ genreId, index_ }) {
   const elementRef = useRef(null);
   useEffect(() => {
     getMovieByGenreId();
-  }, []);
+  }, [])
 
   const getMovieByGenreId = () => {
     GlobalApi.getMovieByGenreId(genreId).then((resp) => {
@@ -22,10 +22,10 @@ function MovieList({ genreId, index_ }) {
 
   const slideRight = (element) => {
     element.scrollLeft += 500;
-  };
+  }
   const slideLeft = (element) => {
     element.scrollLeft -= 500;
-  };
+  }
   return (
     <div className="relative">
       <IoChevronBackOutline
