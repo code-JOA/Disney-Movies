@@ -4,6 +4,7 @@ import marvel from "./../assets/Images/marvel.png";
 import nationalG from "./../assets/Images/nationalG.png";
 import pixar from "./../assets/Images/pixar.png";
 import starwar from "./../assets/Images/starwar.png";
+
 import starwarV from "./../assets/Videos/star-wars.mp4";
 import disneyV from "./../assets/Videos/disney.mp4";
 import marvelV from "./../assets/Videos/marvel.mp4";
@@ -42,7 +43,9 @@ function ProductionHouse() {
   return (
     <div>
         {productionHouseList.map((item)=>(
-
+            <div p-flex>
+                <img src={item.image} className='w-full' />
+            </div>
         ))}
     </div>
   )
