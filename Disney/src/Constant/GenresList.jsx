@@ -57,23 +57,23 @@ const genere = [
   },
   {
     "id": 878,
-    "name": "Science Fiction",
+    "name": "Science Fiction"
   },
   {
     "id": 10770,
-    "name": "TV Movie",
+    "name": "TV Movie"
   },
   {
     "id": 53,
-    "name": "Thriller",
+    "name": "Thriller"
   },
   {
     "id": 10752,
-    "name": "War",
+    "name": "War"
   },
   {
     "id": 37,
-    "name": "Western",
+    "name": "Western"
   },
 ];
 
