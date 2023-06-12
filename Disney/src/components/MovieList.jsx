@@ -8,7 +8,7 @@ function MovieList({genreId}) {
     },[])
 
     const getMovieByGenreId=()=>{
-        GlobalApi.getMovieByGenreId(genreId).then((resp) => {
+        GlobalApi.getMovieByGenreId(genreId).then((resp)=>{
             // console.log(resp.data.results)
             setMovieList(resp.data.results);
         })
@@ -17,7 +17,6 @@ function MovieList({genreId}) {
     return (
         <div>
             {movieList.map((item,index)=>(
-                
             ))}
         </div>
     )
