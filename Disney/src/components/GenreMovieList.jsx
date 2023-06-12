@@ -5,7 +5,8 @@ const GenreMovieList = () => {
     <div>{GenreList.genere.map((item)=>
         <div>
             <h2></h2>
-        </div>)}</div>
+        </div>)}
+        </div>
   )
 }
 
