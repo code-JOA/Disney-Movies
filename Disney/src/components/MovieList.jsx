@@ -28,27 +28,33 @@ function MovieList({ genreId, index_ }) {
   }
   return (
     <div className="relative">
-        <IoChevronBackOutline
-        onClick={()=>slideLeft(elementRef.current)}
-        className='text-[50px] text-white p-2 z-10
+      <IoChevronBackOutline
+        onClick={() => slideLeft(elementRef.current)}
+        className="text-[50px] text-white p-2 z-10
         cursor-pointer hidden md:block absolute
-        mt-[150px]'/>
+        mt-[150px]"
+      />
 
-    <div ref={elementRef}
+      <div
+        ref={elementRef}
         className="flex overflow-x-auto gap-8
-        scrollbar-none scroll-smooth pt-5 px-3 pb-5">
-            {movieList.map((item,index)=>(
-               <MovieCard movie={item} />
+        scrollbar-none scroll-smooth pt-5 px-3 pb-5"
+      >
+        {movieList.map((item, index) => (
+          <>
+           {index_} <MovieCard movie={item} />
+          </>
         ))}
-    </div>
+      </div>
 
-    <IoChevronForwardOutline
+      <IoChevronForwardOutline
         onClick={() => slideRight(elementRef.current)}
-        className='text-[50px] text-white hidden md:block
+        className="text-[50px] text-white hidden md:block
         p-2 cursor-pointer z-10 top-0
-        absolute right-0 mt-[150px]'/>
+        absolute right-0 mt-[150px]"
+      />
     </div>
-    )
+  );
 }
 
 export default MovieList
