@@ -17,7 +17,8 @@ function MovieList({genreId}) {
 
     return (
         <div>
-            
+            <IoChevronBackOutline onClick={()
+            =>slideLeft(elementRef. className)}
         />
 
     
