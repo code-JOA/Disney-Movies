@@ -1,5 +1,6 @@
 import React, { useEffect, useState }  from 'react'
 import GlobalApi from '../Services/GlobalApi'
+import MovieCard from './MovieCard'
 
 function MovieList({genreId}) {
     const [movieList, setMovieList]=useState([])
