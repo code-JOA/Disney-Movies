@@ -43,7 +43,7 @@ function MovieList({ genreId, index_ }) {
             <>
             {/* {index_%3==0?<HrMovieCard movie={item}/>:<MovieCard movie={item} />} */}
 
-            {index_%3==0?<HrMoviecard/>:<MovieCard movie={item} />}
+            {index_%3==0?<HrMovieCard/>:<MovieCard movie={item} />}
           </>
         ))}
       </div>
