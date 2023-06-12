@@ -13,9 +13,10 @@ function MovieList({genreId}) {
         });
     };
 
-  return (
+    return (
+        
     <div>MovieList</div>
-  )
+    )
 }
 
 export default MovieList
