@@ -20,7 +20,7 @@ import GenresList from "../Constant/GenresList";
 // import MovieList from "./MovieList";
 
 function GenreMovieList() {
-  return (
+  return ( 
     <div>
       {GenresList.genere.map(
         (item, index) =>
