@@ -16,7 +16,8 @@ function MovieList({genreId}) {
     }
 
     return (
-        <div className='flex overflow-x-auto gap-8'>
+        <div className='flex overflow-x-auto gap-8
+        scrollbar-none'>
             {movieList.map((item,index)=>(
                 <MovieCard movie={item}/>
             ))}
