@@ -48,7 +48,7 @@ function ProductionHouse() {
             erase-in-out cursor-pointer'>
                 <img src={item.image} className='w-full' />
                 <video src={item.vide} autoPlay loop playInline
-                className=''>
+                className='absolute top-0 round-md'>
 
                 </video>
             </div>
