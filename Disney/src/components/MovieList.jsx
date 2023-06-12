@@ -18,7 +18,7 @@ function MovieList({genreId}) {
     return (
         <div>
             {movieList.map((item,index)=>(
-                <MovieCard movie={item/>
+                <MovieCard movie={item./>
 
             ))}
         </div>
