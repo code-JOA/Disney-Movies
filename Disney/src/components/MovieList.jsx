@@ -3,7 +3,7 @@ import GlobalApi from '../Services/GlobalApi'
 
 function MovieList({genreId}) {
     useEffect(()=>{
-
+        getMovieByGenreId();
     },[])
 
     const getMovieByGenreId = () => {
@@ -15,7 +15,11 @@ function MovieList({genreId}) {
 
     return (
 
-    <div>{MovieList.map((item,index)</div>
+    <div>
+        {MovieList.map((item,index)=>(
+
+        ))}
+        </div>
     )
 }
 
