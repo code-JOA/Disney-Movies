@@ -1,6 +1,6 @@
 const genere = [
   {
-    ""id": 28,
+    "id": 28,
     "name": "Action"
   },
   {
