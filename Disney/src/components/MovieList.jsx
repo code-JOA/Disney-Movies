@@ -37,18 +37,16 @@ function MovieList({genreId}) {
         scrollbar-none scroll-smooth pt-4 px-3 pb-4">
           {movieList.map((item,index)=>(
             <>
-            {index_%3==0?<HrMovieCard movie={item}/>:<MovieCard movie={item} />
-
+            {index_%3==0?<HrMovieCard movie={item}/>:<MovieCard movie={item} />}
             </>
-          ))}
+        ))}
         </div>
 
         <IoChevronForwardOutline
-          onClick={() => slideRight(elementRef.current)}
-          className={`text-[50px] text-white hidden md:block
-           p-2 cursor-pointer z-10 top-0
-            absolute right-0 
-            ${index_ % 3 == 0 ? "mt-[80px]" : "mt-[150px]"}`}
+        onClick={() => slideRight(elementRef.current)}
+        className={`text-[50px] text-white hidden md:block
+        p-2 cursor-pointer z-10 top-0 absolute right-0 
+        ${index_ % 3 == 0 ? "mt-[80px]" : "mt-[150px]"}`}
         />
       </div>
     );
