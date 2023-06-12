@@ -46,13 +46,9 @@ function ProductionHouse() {
         <div
           className="border-[2px] border-gray-600
             rounded-lg hover:scale-110 transition-all duration-300 
-            erase-in-out cursor-pointer"
+            erase-in-out cursor-pointer relative shadow-xl shadow-gray-800"
         >
-                 <div className='border-[2px] border-gray-600
-            rounded-lg hover:scale-110 transition-all duration-300
-            ease-in-out cursor-pointer relative shadow-xl 
-            shadow-gray-800
-            '>
+
           <img src={item.image} className="w-full z-[1] opacity-100" />
           <video
             src={item.video}
