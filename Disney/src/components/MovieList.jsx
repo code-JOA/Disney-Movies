@@ -34,25 +34,20 @@ function MovieList({ genreId, index_ }) {
         cursor-pointer hidden md:block absolute
         mt-[150px]'/>
 
-      <div ref={elementRef}
+    <div ref={elementRef}
         className="flex overflow-x-auto gap-8
         scrollbar-none scroll-smooth pt-4 px-3 pb-4">
             {movieList.map((item,index)=>(
-          <>
-            {index_ % 3 == 0 ? (
-              <HrMovieCard movie={item} />
-            ) : (
-              <MovieCard movie={item} />
-            )}
-          </>
+
         ))}
       </div>
+
       <IoChevronForwardOutline
         onClick={() => slideRight(elementRef.current)}
-        className={`text-[50px] text-white hidden md:block
+        className='text-[50px] text-white hidden md:block
            p-2 cursor-pointer z-10 top-0
             absolute right-0 
-            ${index_%3 == 0 ? "mt-[80px]" : "mt-[150px]"}`}
+            ${index_%3 == 0 ? "mt-[80px]" : "mt-[150px]"
       />
     </div>
   )
