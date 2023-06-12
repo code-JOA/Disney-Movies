@@ -1,27 +1,27 @@
 const genere = [
   {
     id: 28,
-    name: "Action",
+    name: "Action"
   },
   {
     id: 12,
-    name: "Adventure",
+    name: "Adventure"
   },
   {
     id: 16,
-    name: "Animation",
+    name: "Animation"
   },
   {
     id: 35,
-    name: "Comedy",
+    name: "Comedy"
   },
   {
     id: 80,
-    name: "Crime",
+    name: "Crime"
   },
   {
     id: 99,
-    name: "Documentary",
+    name: "Documentary"
   },
   {
     id: 18,
