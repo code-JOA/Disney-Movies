@@ -18,6 +18,11 @@ function MovieList({genreId}) {
         })
     }
 
+    const slideRight=(element)=>{
+        element.scrollLeft+=500;
+    }
+    
+
     return (
       <div className="relative">
         <IoChevronBackOutline
