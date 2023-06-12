@@ -48,12 +48,18 @@ function ProductionHouse() {
             rounded-lg hover:scale-110 transition-all duration-300 
             erase-in-out cursor-pointer"
         >
+                 <div className='border-[2px] border-gray-600
+            rounded-lg hover:scale-110 transition-all duration-300
+            ease-in-out cursor-pointer relative shadow-xl 
+            shadow-gray-800
+            '>
           <img src={item.image} className="w-full z-[1] opacity-100" />
           <video
             src={item.video}
             autoPlay
             loop
             playsInline
+            muted
             className="absolute z-0 top-0 round-md opacity-0 
             hover:opacity-50"
           >
