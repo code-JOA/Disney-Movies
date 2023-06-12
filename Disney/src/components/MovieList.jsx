@@ -2,7 +2,11 @@ import React from 'react'
 
 function MovieList({genreId}) {
 
-    const getMovieByGenreId=
+    const getMovieByGenreId=()=>{
+        GlobalApi.getMovieByGenreId(genreId).then(resp)=>{
+            console.log(res)
+        }
+    }
   return (
     <div>MovieList</div>
   )
