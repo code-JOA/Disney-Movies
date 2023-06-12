@@ -38,7 +38,7 @@ function MovieList({ genreId, index_ }) {
         className="flex overflow-x-auto gap-8
         scrollbar-none scroll-smooth pt-5 px-3 pb-5">
             {movieList.map((item,index)=>(
-                <MovieCard movie={item} />
+               <MovieCard movie={item} />
         ))}
     </div>
 
