@@ -47,6 +47,10 @@ function ProductionHouse() {
             rounded-lg hover:scale-110 transition-all duration-300 
             erase-in-out cursor-pointer'>
                 <img src={item.image} className='w-full' />
+                <video src={item.vide} autoPlay loop playInline
+                className=''>
+
+                </video>
             </div>
         ))}
     </div>
