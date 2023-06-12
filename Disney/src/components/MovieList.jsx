@@ -6,11 +6,20 @@ function MovieList({genreId}) {
 
     },[])
 
-    const getMovieByGenreId=()=>{
+    const getMovieByGenreId = () => {
         GlobalApi.getMovieByGenreId(genreId).then(resp)=>{
             console.log(resp.data.results)
         }
     }
+
+    //   const getMovieByGenreId = () => {
+//     GlobalApi.getMovieByGenreId(genreId).then((resp) => {
+//       // console.log(resp.data.results)
+//       setMovieList(resp.data.results);
+//     });
+//   };
+
+
   return (
     <div>MovieList</div>
   )
