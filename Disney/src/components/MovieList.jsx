@@ -1,6 +1,8 @@
 import React from 'react'
 
-function MovieList() {
+function MovieList({genreId}) {
+
+    const getMovieByGenreId=
   return (
     <div>MovieList</div>
   )
