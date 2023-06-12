@@ -1,12 +1,12 @@
 import React from 'react'
-import GenreList from './components/'
+import GenreList from './components/GenreList.jsx'
 
 const GenreMovieList = () => {
   return (
     <div>
-        {GenresList.genere.map((item)=>
+        {GenresList.genere.map((item,item)=>
         <div>
-            <h2></h2>
+            <h2>{item.name}</h2>
         </div>
         ))}
         </div>
