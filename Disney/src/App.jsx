@@ -18,7 +18,8 @@ function App() {
 
       <ProductionHouse />
 
-      <GenreMovieList />  
+      {/* <GenreMovieList /> */}
+
     </div>
   );
 }
