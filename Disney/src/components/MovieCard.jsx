@@ -1,11 +1,11 @@
 import React from 'react'
 
-const BASE_URL='https://movie'
+const BASE_URL='https://moviedb'
 
 function MovieCard({movie}) {
   return (
     <div>
-        <img src={movie.poster} className=''></img>
+        <img src={movie.posterUrl} className=''></img>
     </div>
   )
 }
